@@ -117,26 +117,34 @@ span {
 }
 
 .skills-section {
-  margin-top: 40px;
+  height: 300px;
+  margin-top: 60px;
   padding: 0px 50px;
   margin-bottom: 100px;
-  background-color: #ecf0f1;
+  background-color: #40045c;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: white;
+  box-shadow: 0 4px 8px rgba(241, 240, 240, 0.1);
 }
 
 .skills-section h2 {
+ position: relative;
+ top: 15px;
   text-align: center;
   font-size: 35px;
-  color: #0c0e0f;
+  color: #feffff;
 }
 .skills-section .text {
+  position: relative;
+ top: 15px;
   text-align: center;
   font-size: 25px;
   margin-bottom: 25px;
 }
 
 .skills-section .cells {
+  position: relative;
+ top: 15px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -151,7 +159,7 @@ span {
   padding: 10px 25px;
   border: 1px solid rgb(166, 162, 162);
   gap: 10px;
-  background-color: #ecf0f1;
+  background-color: #0d0d0d;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -213,7 +221,12 @@ h2 {
 }
 
 .contact-section {
-  padding: 0px 60px;
+  height: 520px;
+  background-color: rgb(185, 254, 82);
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   margin-bottom: 100px;
   margin-top: 50px;
   border-radius: 10px;
@@ -271,4 +284,34 @@ h2 {
   color: #ecf0f1;
   border-radius: 25px;
   transition: 0.4s;
+}
+
+footer {
+  background-color: #ecf0f1;
+  color: #080808;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+  font-size: px;
+}
+
+footer .social-links {
+  margin-top: 10px;
+}
+
+footer .social-links a {
+  color: black;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+footer .social-links a:hover {
+  color: black;
 }
